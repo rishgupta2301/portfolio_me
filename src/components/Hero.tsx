@@ -49,9 +49,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             {[
-              { icon: <Github size={24} />, href: 'https://github.com/YourGithubUsername' },
-              { icon: <Linkedin size={24} />, href: 'https://linkedin.com/in/YourLinkedInUsername' },
-              { icon: <Mail size={24} />, href: 'mailto:your.email@example.com' }
+              { icon: <Github size={24} />, href: 'https://github.com/rishgupta2301' },
+              { icon: <Linkedin size={24} />, href: 'https://linkedin.com/in/rishabh-gupta-432a98195' },
+              { icon: <Mail size={24} />, href: 'mailto:guptarishabh1122@gmail.com' }
             ].map((item, index) => (
               <motion.a
                 key={index}
