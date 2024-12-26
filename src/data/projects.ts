@@ -1,4 +1,8 @@
 import { Project } from '../components/projects/types';
+import ecommerceImage from '../../public/e-commerce.png';
+import iPodImage from '../../public/i-pod.png';
+import stackoverflowImage from '../../public/stackoverflow.png';
+
 
 export const projects: Project[] = [
   {
@@ -6,7 +10,7 @@ export const projects: Project[] = [
     title: 'StackOverflow Clone',
     description: 'A full-stack web application replicating the core functionalities of StackOverflow, built with the MERN stack.',
     longDescription: 'A comprehensive clone of StackOverflow that allows users to post questions, provide answers, and vote on content. The application features secure user authentication, real-time updates, and a robust backend architecture.',
-    image: 'public/stackoverflow.png',
+    image: stackoverflowImage,
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'JWT'],
     github: 'https://github.com/rishgupta2301/stackoverflow-clone',
     live: 'https://stackoverflow-clone-byrishabh.netlify.app/',
@@ -27,7 +31,7 @@ export const projects: Project[] = [
     title: 'E-commerce Platform',
     description: 'A modern e-commerce platform with Stripe integration and Sanity CMS for content management.',
     longDescription: 'A feature-rich e-commerce solution that provides a seamless shopping experience. Built with modern technologies and best practices, it includes real-time cart updates, secure payments, and an intuitive admin interface.',
-    image: 'public/e-commerce.png',
+    image: ecommerceImage,
     technologies: ['React', 'Next.js', 'Sanity CMS', 'Stripe', 'React Hooks'],
     github: 'https://github.com/rishgupta2301/ecommerce_sanity_stripe',
     live: 'https://ecommerce-sanity-stripe-git-main-rishgupta2301.vercel.app/',
@@ -48,7 +52,7 @@ export const projects: Project[] = [
     title: 'iPod Classic Clone',
     description: 'A nostalgic recreation of the iconic iPod Classic interface with a modern twist using React.',
     longDescription: 'Experience the magic of the classic iPod with this interactive web clone. Featuring the iconic click wheel navigation system, this project brings back the beloved interface with smooth animations and intuitive controls. Built with React and modern web technologies, it demonstrates advanced DOM manipulation and state management.',
-    image: 'public/i-pod.png',
+    image: iPodImage,
     technologies: ['React', 'CSS3', 'JavaScript', 'ZingTouch', 'State Management'],
     github: 'https://github.com/rishgupta2301/iPodClone',
     live: 'https://ipodclone-rishabh.netlify.app/',
