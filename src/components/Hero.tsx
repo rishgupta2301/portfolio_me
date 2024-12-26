@@ -61,7 +61,7 @@ const Hero = () => {
             {[
               { icon: <Github size={24} />, href: 'https://github.com/rishgupta2301', label: 'GitHub' },
               { icon: <Linkedin size={24} />, href: 'https://www.linkedin.com/in/rishabh-gupta-432a98195/', label: 'LinkedIn' },
-              { icon: <Mail size={24} />, href: 'mailto:your.guptarishabh1122@gmail.com', label: 'Email' },
+              { icon: <Mail size={24} />, href: 'mailto:guptarishabh1122@gmail.com', label: 'Email' },
               { icon: <FileDown size={24} />, onClick: handleDownload, label: 'Download Resume' }
             ].map((item, index) => (
               <motion.a
