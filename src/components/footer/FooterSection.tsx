@@ -8,8 +8,17 @@ const FooterSection = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer id="contact" className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-6 py-12">
+        <motion.h2 
+          className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 text-transparent bg-clip-text"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          Contact Me
+        </motion.h2>
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <FooterLinks />
           <FooterSocial />
@@ -22,7 +31,7 @@ const FooterSection = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          <p>&copy; {currentYear} John Doe. All rights reserved.</p>
+          <p>&copy; {currentYear} Rishabh Gupta. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

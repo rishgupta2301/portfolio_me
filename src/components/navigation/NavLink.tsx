@@ -9,9 +9,18 @@ interface NavLinkProps {
 }
 
 const NavLink = ({ href, children, className = '', onClick }: NavLinkProps) => {
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     
+    // Close mobile menu first
+    if (onClick) {
+      onClick();
+    }
+
+    // Wait for mobile menu animation to complete
+    await new Promise(resolve => setTimeout(resolve, 300));
+    
+    // Then scroll to the target section
     const target = document.querySelector(href);
     if (target) {
       const navHeight = 80; // Height of the navbar
@@ -22,11 +31,6 @@ const NavLink = ({ href, children, className = '', onClick }: NavLinkProps) => {
         top: offsetPosition,
         behavior: 'smooth'
       });
-    }
-    
-    // Call onClick after scrolling
-    if (onClick) {
-      setTimeout(onClick, 100);
     }
   };
 
