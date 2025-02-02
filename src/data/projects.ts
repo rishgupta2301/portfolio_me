@@ -2,9 +2,30 @@ import { Project } from '../components/projects/types';
 import ecommerceImage from '../../public/e-commerce.png';
 import iPodImage from '../../public/i-pod.png';
 import stackoverflowImage from '../../public/stackoverflow.png';
+import kanban from '../../public/kanban.png';
 
 
 export const projects: Project[] = [
+  {
+    id: 'Kanban Board',
+    title: 'Advanced task manager',
+    description: 'A sleek and interactive Kanban task management app with drag-and-drop functionality, enabling efficient task organization across multiple columns.',
+    longDescription: 'Developed a Kanban board that allows users to visually manage tasks by adding, editing, deleting, and rearranging them across customizable columns. Built with a modern tech stack to ensure a smooth, responsive, and user-friendly experience.',
+    image: kanban,
+    technologies: ['React', 'Tailwind CSS', 'Typescript', 'DnD Kit (drag & drop)', 'Vite'],
+    github: 'https://github.com/rishgupta2301/kanban-tasks/',
+    live: 'https://kanban-board-rishabh.netlify.app/',
+    duration: '1 week',
+    teamSize: 1,
+    role: 'Frontend Developer',
+    features: [
+      'Drag-and-drop task management using DnD Kit',
+      'Create, update, and delete tasks seamlessly',
+      'Add and remove columns dynamically',
+      'Responsive design that works on all devices',
+      'Lightweight and optimized for performance',
+    ]
+  },
   {
     id: 'stackoverflow-clone',
     title: 'StackOverflow Clone',
