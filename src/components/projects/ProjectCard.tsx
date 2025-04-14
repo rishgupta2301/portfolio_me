@@ -66,7 +66,7 @@ const ProjectCard = ({ project, onClick, index }: ProjectCardProps) => {
         <h3 className="text-xl font-semibold mb-2 dark:text-white">{project.title}</h3>
         <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
         <div className="flex flex-wrap gap-2">
-          {project.technologies.slice(0, 4).map((tech, i) => (
+          {project.technologies.slice(0, 6).map((tech, i) => (
             <span
               key={i}
               className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 rounded-full text-sm"
@@ -74,9 +74,9 @@ const ProjectCard = ({ project, onClick, index }: ProjectCardProps) => {
               {tech}
             </span>
           ))}
-          {project.technologies.length > 4 && (
+          {project.technologies.length > 6 && (
             <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 rounded-full text-sm">
-              +{project.technologies.length - 4} more
+              +{project.technologies.length - 6} more
             </span>
           )}
         </div>

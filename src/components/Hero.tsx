@@ -5,7 +5,8 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   const handleDownload = () => {
     // Replace this URL with the direct download URL
-    const resumeUrl = 'https://drive.google.com/uc?id=1WYcFxztx_U3PonR2XlW6hL4iu13cuJv6&export=download';
+    // const resumeUrl = 'https://drive.google.com/uc?id=1WYcFxztx_U3PonR2XlW6hL4iu13cuJv6&export=download';
+    const resumeUrl = 'https://drive.google.com/file/d/1-mvmh2g48TVXs9EYZYB9EuT4Elej3Qln/view?usp=sharing'
     const anchor = document.createElement('a');
     anchor.href = resumeUrl;
     anchor.download = 'Resume.pdf'; // Suggests a filename for the download

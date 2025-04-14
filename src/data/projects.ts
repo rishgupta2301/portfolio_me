@@ -3,12 +3,31 @@ import ecommerceImage from '../../public/e-commerce.png';
 import iPodImage from '../../public/i-pod.png';
 import stackoverflowImage from '../../public/stackoverflow.png';
 import kanban from '../../public/kanban.png';
+import uberTransport from '../../public/uberTransport.png'
 
 
 export const projects: Project[] = [
   {
+    id: 'Uber Transport',
+    title: 'Uber Transport',
+    description: 'A simple and smooth app for booking a cab/auto/bike on the go',
+    longDescription: '',
+    image: uberTransport,
+    technologies: ['React', 'Tailwind CSS', 'Javascript', 'GSAP', 'Axios', 'Socket.io', 'Node', 'Express', 'MongoDB', 'Bcrypt', 'JWT'],
+    github: 'https://github.com/rishgupta2301/uber',
+    live: 'https://ubertransport.netlify.app/',
+    duration: '1 week',
+    teamSize: 1,
+    role: 'Fullstack Developer',
+    features: [
+      '',
+      '',
+      '',
+    ]
+  },
+  {
     id: 'Kanban Board',
-    title: 'Advanced task manager',
+    title: 'Kanban Board',
     description: 'A sleek and interactive Kanban task management app with drag-and-drop functionality, enabling efficient task organization across multiple columns.',
     longDescription: 'Developed a Kanban board that allows users to visually manage tasks by adding, editing, deleting, and rearranging them across customizable columns. Built with a modern tech stack to ensure a smooth, responsive, and user-friendly experience.',
     image: kanban,

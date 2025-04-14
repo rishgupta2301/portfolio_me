@@ -15,10 +15,10 @@ export const experienceData: Experience[] = [
     period: 'Nov 2023 - Present',
     techStack: ['React', 'TypeScript', 'Chart.js', 'WebSocket', 'Material UI'],
     achievements: [
-      'Created interactive data visualizations for real-time tracking of traffic, air quality, and energy usage, enabling actionable insights for city officials using Chart.js. Reduced load times by 25% through tree-shaking and code-splitting.',
-      'Developed a real-time alert system to instantly notify administrators of critical events like power outages using Websockets. Improved initial page load speed by 20% by implementing lazy loading for non-essential components.',
-      'Designed role-specific dashboards that adapt features based on user roles using React.js. Optimized performance by 30% using code splitting to load only necessary components.',
-      'Integrated APIs for smooth data flow between frontend and city systems. Decreased network traffic by 20% through debouncing API requests, enhancing overall performance.',
+      'Engineered interactive data visualizations for real-time tracking of traffic, air quality, and energy usage using Chart.js, empowering city officials with actionable insights. Achieved reduction of load times by 25% through tree-shaking and code-splitting.',
+      'Launched innovative notification framework using Websockets that provided immediate alerts on key operational disruptions; findings led to fixing the three biggest causes of service interruptions over two months.',
+      'Designed and implemented role-specific dashboards in React.js, customizing features based on user roles. Boosted performance by 30% through code splitting to load only essential components.',
+      'Integrated and optimized APIs for seamless data exchange between frontend and city systems utilizing MS SQL Server for efficient data storage and retrieval. Reduced network traffic by 20% by implementing debounced API requests, enhancing efficiency.',
     ],
   },
   {
@@ -29,8 +29,8 @@ export const experienceData: Experience[] = [
     techStack: ['Next.js', 'React', 'Sass', 'Bootstrap'],
     achievements: [
       'Used React Lazy and Suspense to load components only when accessed, reducing initial load time by 30%.',
-      'Assisted in building Pranaam Services for Adani Airports using Next.js, React.js, Sass, and Bootstrap.',
-      'Simplified global state handling with React Context and useReducer, reducing prop drilling by 40%.',
+      'Built Pranaam Services for Adani Airports with React.js, Sass, and Bootstrap, boosting performance by 40% and engagement by 25%.',
+      'Refactored global state management using React Context and useReducer, reducing prop drilling by 40%.',
       'Loaded large, infrequent components dynamically, improving load time by 25% and reducing bundle size.',
       'Used React.memo to avoid unnecessary re-renders, cutting CPU usage by 15% during heavy interactions.',
     ],
@@ -42,9 +42,9 @@ export const experienceData: Experience[] = [
     period: 'June 2022 - Oct 2022',
     techStack: ['Next.js', 'TypeScript', 'Socket.io', 'Prisma', 'PostgreSQL'],
     achievements: [
-      'Implemented real-time OpenAI API integration using Socket.io: Developed a real-time system to generate and display property advertisement prompts on the frontend by streaming OpenAI API results via Socket.io for a seamless user experience.',
-      'Developed "Ask AI" UI component for property feature suggestions in Next.js and TypeScript, generating property-specific insights (e.g., location, selling points, top facilities) based on a Figma design, ensuring seamless integration across all pages.',
-      'Created an efficient schema with Prisma for managing property data in PostgreSQL.',
+      'Processed real-time OpenAI API integration using Socket.io to stream and display property ad prompts, reducing latency by 35% and enhancing user engagement.',
+      'Developed ”Ask AI” UI component for property feature suggestions in Next.js and TypeScript, generating property- specific insights (e.g., location, selling points) based on a Figma design, ensuring seamless integration across all pages.',
+      'Structured and optimized Prisma schema for PostgreSQL and MS SQL Server, improving query performance by 30%.',
     ],
   },
 ];
