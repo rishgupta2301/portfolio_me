@@ -9,10 +9,23 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
+    title: 'Software Engineer L2',
+    company: 'Think Future Technologies Pvt. Ltd.',
+    location: 'Gurugram, Haryana',
+    period: 'Aug 2025 - Present',
+    techStack: ['React', 'TypeScript', 'D3.js', 'WebSocket', 'Material UI', 'i18next', 'TanStack Query', 'Core Web Vitals', 'Tailwind CSS'],
+    achievements: [
+      'Architected dual-mode dictionary system managing 100,000+ translation/transliteration entries across 15 language pairs with <200ms search response time.',
+      'Implemented debounced search reducing server load by 85% (from 1,500 API calls/min to 225 calls/min) while maintaining real-time user experience.',
+      'Developed drag-and-drop upload system handling 20 concurrent files (500MB each) with Socket.IO real-time tracking, reducing upload failures by 40%',
+      'Optimized the Doctor Dashboard in the YHealth healthcare application by improving Core Web Vitals (LCP, CLS, TBT), implementing lazy loading for large patient datasets across doctor and pharma modules, and integrating TanStack Query for efficient caching—significantly reducing redundant API calls and improving navigation performance. [https://dashboard.yhealth.me/]',
+    ],
+  },
+  {
     title: 'Associate Software Engineer (ReactJS Developer)',
     company: 'Accenture',
     location: 'Gurugram, Haryana',
-    period: 'Nov 2023 - Present',
+    period: 'Nov 2023 - June 2025',
     techStack: ['React', 'TypeScript', 'Chart.js', 'WebSocket', 'Material UI'],
     achievements: [
       'Engineered interactive data visualizations for real-time tracking of traffic, air quality, and energy usage using Chart.js, empowering city officials with actionable insights. Achieved reduction of load times by 25% through tree-shaking and code-splitting.',
